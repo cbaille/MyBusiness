@@ -20,6 +20,14 @@ namespace MyBusiness.Web.Startup
                         icon: "home",
                         requiresAuthentication: true
                     )
+                .AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Home,
+                        L("Clients"),
+                        url: "",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         PageNames.Tenants,
